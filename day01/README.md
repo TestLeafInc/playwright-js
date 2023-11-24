@@ -7,4 +7,4 @@ In this module, we will take a look at the following:
 - Operators >> Arithmetic
 - Conditional statements - if, else, switch-case
 - Looping constructs - for, while, do - while
-- Functions and Arrow Functions
+- Functions
