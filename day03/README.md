@@ -307,8 +307,8 @@ Selector Strategies:
 
 1. Launch a browser
 2. Load the URL https://login.salesforce.com/
-3. Enter the username as hari.radhakrishnan@qeagle.com
-4. Enter the password as Testleaf@1234
+3. Enter the username as <username>
+4. Enter the password as <passwprd>
 5. Click the Log In button
 6. Get the title of the page
 7. Close the browser
