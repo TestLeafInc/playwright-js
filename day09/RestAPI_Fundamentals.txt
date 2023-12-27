@@ -1,0 +1,228 @@
+Rest API Fundamentals:
+======================
+
+Basics
+Post and Get in the Postman
+
+PM
+
+API-Application programming Interface
+
+Content Type
+--Format in which you are sending Request
+
+Accept
+--Format in which response is received 
+
+Verbs/http methods:
+===================
+CRUD
+
+Create --Post
+Read --Get
+Update-- Patch/Put
+Delete--Delete
+
+Employee Onboarding
+Employee details 
+Update Employee
+Delete employee details
+
+Put --Full update
+Patch --Partial update
+
+Employee ID-3456
+
+Authentication
+==============
+
+Authentication and Authorization
+
+
+Authentication--User Identity
+Authorization--Access Level
+
+Super Admin
+Admin
+Normal user
+
+basic Authentication --Username and Password
+
+Spotify:
+========
+
+Oauth--open Authorzation
+
+1)Restricted Access
+2)Multi level Authorization
+
+
+Jwt--Json Web tokens
+
+Highly Secured --Encryption
+
+1)Developers give api to generate Jwt token
+2)Generated tokens will be used in API to perform CRUD operstions
+
+No Auth
+Basic --Username and Password
+OAuth-- Access token from api 
+Jwt--API to generate token and use it
+
+Request Body:
+=============
+1)Json
+2)XML
+3)Text
+
+Response Body:
+=================
+1)Json
+2)XML
+3)Text
+
+Status Code:
+=============
+2XX --Success
+
+200-Success
+201-Create
+204- No content
+
+4XX - Client error
+
+404 -Resource not found
+400 --Bad Request
+401 -unAuthorized
+403 -Forbidden
+
+What is difference 401 and 403
+
+5xx- Server error
+500 -internal error
+
+Postman:
+========
+Manual testing API's with postman
+Postman --Javascript
+
+1) Create a new Collection
+2) Move the OAuth Generating API to the collection
+3) Initiate the request and Check the access token is generated in the response 
+
+00D5j00000C8pLO!ARoAQJK3tvj2QOSCH27dP1L6vkaWZenbQbbvGVHRThcsjP65MPYs6aTYMUXhk4a8J1Z.9s8NjoQoiXUmfNWiiAjFsFYqgdKD
+
+00Q5j00000WonkLEAR
+00Q5j00000WonkLEAR
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

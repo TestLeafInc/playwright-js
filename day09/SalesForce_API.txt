@@ -1,0 +1,38 @@
+Create Lead:
+============
+
+Url :https://testleaf30-dev-ed.develop.my.salesforce.com/services/data/v58.0/sobjects/Lead
+
+Request Body:
+
+{
+    "FirstName": "Eagle",
+    "LastName": "R",
+    "Company": "Eagle"
+
+}
+
+Get Lead:
+=========
+
+Url:https://testleaf30-dev-ed.develop.my.salesforce.com/services/data/v58.0/sobjects/Lead/{{
+LeadID}}
+
+Create Opportunity:
+===================
+
+Url:
+https://testleaf30-dev-ed.develop.my.salesforce.com/services/data/v58.0/sobjects/Opportunity
+
+Request Body:
+=============
+
+{
+"CloseDate":"2023-12-05",
+"Name":"Test",
+"StageName":"Prospecting"
+}
+
+
+
+
