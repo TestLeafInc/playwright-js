@@ -1,0 +1,57 @@
+Trace Viewer
+
+ Step 1: Start the tracing
+  context.tracing.start()
+
+ Step 2: Perform Actions
+
+ Step 3: Stop Tracing
+
+ context.tracing.stop(path)
+ path -> trace.zip 	
+
+
+Keyboard Actions:
+
+1. keyboard.type() --> simulates the typing text into an input field on the web page
+				  --> characters will be entered sequentially
+
+				  --> typing each char
+	await page.keyboard.type("Hello, Testleaf", {delay:100}) --> testing scenarios where the input speed is a factor
+
+2. keyboard.insertText() --> simulates the insertion of text into input field --> pasting all the char
+
+	await page.keyboard.insertText("Welcome to PW Training")
+
+3. keyboard.down() --> simulate pressing down a key on the keyboard
+
+	await page.keyboard.down('Shift')
+
+	--> copying the text - ctr+C
+	await page.keyboard.down('Control');
+	await page.keyboard.press('C');
+	await page.keyboard.up('Control')
+
+4. keyboard.press() --> simulate the pressing and releasing the key
+
+	await keyboard.press('Enter');
+
+Mouse Actions
+
+	- clicking
+	- hovering
+	- scrolling
+	- dragging
+
+click --> await page.click('selector')
+double click --> await page.dblclick('selector');
+hover --> await page.hover('selector');
+right click --> await page.click('selector', {button:'right'});
+drag and drop --> dragTo()
+	const source = page.locator('#source');
+	const target = page.locator('#target');
+	await source.dragTo(target);
+scroll --> scrollIntoViewIfNeeded
+const locator = page.locator('selector');
+await locator.scrollIntoViewIfNeeded();
+
